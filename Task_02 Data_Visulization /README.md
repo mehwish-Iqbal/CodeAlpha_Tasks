@@ -130,7 +130,7 @@ This visualization compares the number of orders received on different days of t
 
 This chart compares total product sales revenue across different days of the week.
 
-**Insight:** Monday generated the highest revenue at approximately **$2.62 million**, while Saturday generated the lowest at approximately **$1.77 million**.
+**Insight:** Monday generated the highest revenue at approximately **$2.23 million**, while Saturday generated the lowest at approximately **$1.50 million**.
 
 ![Revenue by Day of Week](Images/revenue_by_day.png)
 
