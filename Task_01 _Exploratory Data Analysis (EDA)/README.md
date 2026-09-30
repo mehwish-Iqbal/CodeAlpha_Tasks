@@ -1,7 +1,10 @@
-# CodeAlpha Internship — Task 01
+# Exploratory Data Analysis of Olist Brazilian E-Commerce Dataset
 
-## Exploratory Data Analysis of Olist E-Commerce Dataset
+ **Internship** : CodeAlpha
 
+ **Name** :  Mehwish Iqbal
+ 
+ **Task 01**  : EDA 
 
 ### 📌 Introduction / Objective
 
@@ -12,8 +15,29 @@ The objective of this task is to perform **Exploratory Data Analysis (EDA)** on 
 The analysis focuses on identifying data quality issues, understanding relationships between different datasets, answering key business questions, and extracting meaningful insights from the data.
 
 ---
+## 📊 Dataset Overview
 
-## 📂 Dataset
+This project uses multiple datasets from the **Olist Brazilian E-Commerce Dataset** to analyze sales, customers, products, payments, and order information.
+
+| Dataset                  |    Rows | Columns |
+| ------------------------ | ------: | ------: |
+| **Orders**               |  99,441 |       8 |
+| **Order Items**          | 112,650 |       7 |
+| **Payments**             | 103,886 |       5 |
+| **Products**             |  32,951 |       9 |
+| **Category Translation** |      71 |       2 |
+| **Customers**            |  99,441 |       5 |
+
+
+----
+## 🛠️ Tools & Libraries
+
+* **Python** — Data analysis and programming
+
+* **Pandas** — Data manipulation and analysis
+
+* **Jupyter Notebook** — Development and analysis environment
+
 
 The analysis uses multiple datasets from the **Olist Brazilian E-Commerce Dataset**, including:
 
@@ -252,13 +276,9 @@ The following areas can be explored in future stages of the project:
 
 ---
 
-## 🎯 Internship Task
 
-**Program:** CodeAlpha Internship
 
-**Task:** Task 2 — Exploratory Data Analysis
 
-**Domain:** Data Analytics
 
 **Dataset:** Olist Brazilian E-Commerce Dataset
 
