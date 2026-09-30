@@ -1,10 +1,10 @@
-# Exploratory Data Analysis of Olist Brazilian E-Commerce Dataset
+#   Olist Brazilian E-Commerce Dataset EDA
 
  **Internship** : CodeAlpha
 
  **Name** :  Mehwish Iqbal
  
- **Task 01**  : EDA 
+ **Task 01**  : exploratory data analysis 
 
 ### 📌 Introduction / Objective
 
@@ -15,9 +15,12 @@ The objective of this task is to perform **Exploratory Data Analysis (EDA)** on 
 The analysis focuses on identifying data quality issues, understanding relationships between different datasets, answering key business questions, and extracting meaningful insights from the data.
 
 ---
+
 ## 📊 Dataset Overview
 
-This project uses multiple datasets from the **Olist Brazilian E-Commerce Dataset** to analyze sales, customers, products, payments, and order information.
+This project uses multiple Olist datasets to analyze e-commerce sales, customers, products, payments, and order performance.
+
+### Source Datasets
 
 | Dataset                  |    Rows | Columns |
 | ------------------------ | ------: | ------: |
@@ -27,6 +30,15 @@ This project uses multiple datasets from the **Olist Brazilian E-Commerce Datase
 | **Products**             |  32,951 |       9 |
 | **Category Translation** |      71 |       2 |
 | **Customers**            |  99,441 |       5 |
+
+
+### 🔗 Merged Dataset
+
+The relevant datasets were merged using common keys such as `order_id`, `product_id`, and `customer_id` to create a consolidated **`sales_data`** dataset.
+
+**Final Dataset Shape:** `112,650 rows × 16 columns`
+
+This merged dataset was used for the main sales analysis and visualization.
 
 
 ----
