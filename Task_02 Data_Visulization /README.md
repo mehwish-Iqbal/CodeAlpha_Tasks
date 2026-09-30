@@ -212,8 +212,9 @@ Through this project, I practiced:
 
 ```text
 Task_03/
-│
-├── Task_03_Data_Visualization.ipynb
+│__Notebook
+├── task_03_Data_Visualization.ipynb
+|
 ├── README.md
 │
 └── images/
