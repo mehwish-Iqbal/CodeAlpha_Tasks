@@ -1,4 +1,4 @@
-#   Amazon Reviwes Sentiment Analysis
+#   Amazon Reviews Sentiment Analysis
 
 ## 📌 Project Overview
 
