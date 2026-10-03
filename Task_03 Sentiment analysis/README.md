@@ -69,6 +69,19 @@ A new `Clean_Review` column was created for sentiment and emotion analysis.
 
 ---
 
+## 📊 Visualizations
+
+The project includes interactive Plotly visualizations for:
+
+1. **Amazon Reviews Sentiment Distribution**
+2. **Sentiment Percentage**
+3. **Sentiment Distribution by Customer Rating**
+4. **Emotion Distribution**
+5. **Sentiment by Country**
+6. **Monthly Sentiment Trend — 2024**
+
+----
+
 ## 💬 Sentiment Analysis
 
 The **VADER (Valence Aware Dictionary and sEntiment Reasoner)** sentiment analyzer was used to calculate sentiment scores.
@@ -93,9 +106,43 @@ Positive reviews represent the largest group, but negative reviews are also a si
 
 ---
 
-## ⭐ Sentiment vs Customer Rating
+## 1. Sentiment Distribution
+
+This chart shows the number of **Positive, Negative, and Neutral** reviews in the Amazon Reviews dataset.
+
+<img width="899" height="449" alt="Sentiment_distribution" src="https://github.com/user-attachments/assets/1acdcb3d-6ca5-45c8-91a6-2085cc57b7ea" />
+
+**Insight:**
+
+* **Positive** reviews represent the largest sentiment group  **10,108**, 
+* closely followed by **negative** reviews  **9394**. 
+* and **Neutral** reviews account are **1,553** of the dataset.
+
+----
+## 2. Sentiment Percentage
+
+This chart shows the **percentage distribution** of Positive, Negative, and Neutral reviews.
+
+<img width="899" height="445" alt="sentiment_percentage" src="https://github.com/user-attachments/assets/1bf73cbc-e096-4c4a-9f65-9d3069434478" />
+
+
+**Key Insight:**
+* Positive reviews accounted for **48.01%**,
+* negative reviews for **44.62%**,
+* and neutral reviews for **7.38%**,
+* showing a mixed pattern of customer sentiment.
+
+---
+
+
+
+##  3 ⭐ Sentiment vs Customer Rating
 
 Sentiment was compared with customer star ratings to understand the relationship between review text and ratings.
+
+<img width="901" height="449" alt="sentiment_vs _rating" src="https://github.com/user-attachments/assets/367cdccf-0b84-4145-b6b9-def1246e741d" />
+
+
 
 Key observations:
 
@@ -105,7 +152,7 @@ Key observations:
 
 ---
 
-## 😊 Emotion Detection
+## 4 😊 Emotion Detection
 
 A **keyword-based emotion lexicon** was used to identify specific emotions in customer reviews.
 
@@ -127,15 +174,25 @@ The following emotions were analyzed:
 | Surprise |            352 |
 | Fear     |            188 |
 
+
+<img width="902" height="536" alt="Emotion_distribution" src="https://github.com/user-attachments/assets/f97146f8-361d-493e-a209-730aec0e9a73" />
+
+
+
+
 ### Key Finding
 
-**Joy** was the most frequently detected emotion, followed by **Sadness** and **Anger**. This shows that customer reviews contain both positive and negative emotional expressions.
+* **Joy** was the most frequently detected emotion, followed by **Sadness** and **Anger**.
+* This shows that customer reviews contain both positive and negative emotional expressions.
 
 ---
 
-## 🌍 Sentiment by Country
+## 5 🌍 Sentiment by Country
 
 Sentiment patterns were also analyzed across countries.
+
+<img width="899" height="445" alt="sentiment _by_country" src="https://github.com/user-attachments/assets/de8fa5b5-9bf9-41d6-8af7-c1329bbf0701" />
+
 
 ### Key Findings
 
@@ -148,9 +205,12 @@ Overall, sentiment patterns **vary across countries**, while the US and GB contr
 
 ---
 
-## 📈 Monthly Sentiment Trend — 2024
+## 6 📈 Monthly Sentiment Trend — 2024
 
 The analysis also examined monthly sentiment patterns during 2024.
+
+<img width="899" height="448" alt="Monthly _sentiment _trend" src="https://github.com/user-attachments/assets/61646c06-90ab-4e85-98e4-c85791237b94" />
+
 
 ### Key Findings
 
@@ -159,18 +219,7 @@ The analysis also examined monthly sentiment patterns during 2024.
 * Neutral sentiment remained relatively low, ranging from **16 to 29 reviews**.
 * Negative sentiment remained higher than positive sentiment in most months.
 
----
 
-## 📊 Visualizations
-
-The project includes interactive Plotly visualizations for:
-
-1. **Amazon Reviews Sentiment Distribution**
-2. **Sentiment Percentage**
-3. **Sentiment Distribution by Customer Rating**
-4. **Emotion Distribution**
-5. **Sentiment by Country**
-6. **Monthly Sentiment Trend — 2024**
 
 ---
 
@@ -201,29 +250,8 @@ The analysis shows that **Positive reviews (48.01%)** slightly exceed **Negative
 
 Overall, sentiment and emotion analysis can provide useful insights into **customer opinions, product improvement opportunities, marketing strategies, and customer experience**.
 
----
 
-## 📁 Project Structure
-
-```text
-CodeAlpha_Tasks/
-│
-├── Task_01/
-│   └── ...
-│
-├── Task_02/
-│   └── ...
-│
-├── Task_03/
-│   └── ...
-│
-└── Task_04/
-    ├── Sentiment_Analysis.ipynb
-    ├── Amazon_Reviews.csv
-    └── README.md
-```
-
----
+-----
 
 ## 👩‍💻 Author
 
@@ -236,4 +264,19 @@ Aspiring Data Analyst | Python | Data Analysis | Data Visualization
 ## 🔗 Skills Demonstrated
 
 **Python • Pandas • NumPy • NLP • VADER • Text Preprocessing • Sentiment Analysis • Emotion Detection • Plotly • Data Visualization • Exploratory Data Analysis**
+
+
+----
+
+## 📁 Project Structure
+
+```text
+
+CodeAlpha_Tasks/
+└── Task_03 Sentiment analysis
+    |
+    |___Images
+    ├── Codealph_Task_03_Sentiment_Analysis.ipynb
+    ├── Amazon_Reviews.csv
+    └── README.md
 
